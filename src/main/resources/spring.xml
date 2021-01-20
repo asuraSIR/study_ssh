@@ -45,8 +45,8 @@
                 <prop key="hibernate.dialect">${hibernate.dialect}</prop>   <!--指定数据库方言-->
                 <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>     <!--在控制台显示执行的数据库操作语句-->
                 <prop key="hibernate.format_sql">${hibernate.format_sql}</prop>
-                <prop key="hibernate.connection.url">jdbc:mysql://localhost:3306/dbo1</prop>
-                <prop key="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</prop>     <!--在控制台显示执行的数据哭操作语句（格式）-->
+                <prop key="hibernate.connection.url">${jdbc.url}</prop>
+                <prop key="hibernate.connection.driver_class">${jdbc.driver}</prop>     <!--在控制台显示执行的数据哭操作语句（格式）-->
 
             </props>
         </property>

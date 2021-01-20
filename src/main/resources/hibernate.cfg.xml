@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.url">jdbc:mysql://localhost:3306/dbo1?serverTimezone=UTC</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/dbo1?serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf-8</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="hibernate.current_session_context_class">thread</property>
         <property name="hibernate.hbm2ddl.auto">update</property> <!--hibernate根据实体自动生成数据库表-->
